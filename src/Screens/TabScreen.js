@@ -7,7 +7,7 @@ export default class TabsExample extends Component {
   render() {
     return (
       <Container>
-        <Header style={{backgroundColor:'#FF00FF'}} hasTabs>
+        <Header style={{backgroundColor:'#fffff'}} hasTabs>
             <Left/>
           <Body>
             <Title style={{color:'Black'}}>Wallpaper </Title>
@@ -15,10 +15,10 @@ export default class TabsExample extends Component {
           <Right />
         </Header>
         <Tabs tabBarUnderlineStyle={{backgroundColor:'white'}}>
-          <Tab tabStyle={{backgroundColor:'#FF00FF'}} activeTabStyle={{backgroundColor:'#FF00FF'}} textStyle={{color:'Black'}} activeTextStyle={{color:'Black'}} heading="Simple">
+          <Tab tabStyle={{backgroundColor:'#fffff'}} activeTabStyle={{backgroundColor:'#fffff'}} textStyle={{color:'Black'}} activeTextStyle={{color:'Black'}} heading="Simple">
             <Tab1 />
           </Tab>
-          <Tab tabStyle={{backgroundColor:'#FF00FF'}} activeTabStyle={{backgroundColor:'#FF00FF'}} textStyle={{color:'Black'}} activeTextStyle={{color:'Black'}} heading="Dark">
+          <Tab tabStyle={{backgroundColor:'#fffff'}} activeTabStyle={{backgroundColor:'#fffff'}} textStyle={{color:'Black'}} activeTextStyle={{color:'Black'}} heading="Dark">
             <Tab2 />
           </Tab>
         </Tabs>
